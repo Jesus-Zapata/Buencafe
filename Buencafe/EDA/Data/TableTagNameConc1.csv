@@ -1,0 +1,28 @@
+Name;TagName;Type
+Corriente recristalizador 1(Amp);_11VM1Recristalizador1Corriente_AI.Valor;Float
+Corriente recristalizador 2(Amp);_21VM1Recristalizador2Corriente_AI.Valor;Float
+Corriente recristalizador 3(Amp);_31VM1Recristalizador3Corriente_AI.Valor;Float
+Temperatura recristalizador 1(°C);_11V1Recrist1Temp_TT1231_AI.Valor;Float
+Temperatura recristalizador 2(°C);_21V1Recrist2Temp_TT2231_AI.Valor;Float
+Temperatura recristalizador 3(°C);_31V1Recrist3Temp_TT3231_AI.Valor;Float
+Temperatura recibidor 1(°C);_16V01Recibidor1Temp_TT1120_AI.Valor;Float
+Temperatura recibidor 2(°C);_26V01Recibidor2Temp_TT2120_AI.Valor;Float
+Temperatura recibidor 3(°C);_36V01Recibidor3Temp_TT3120_AI.Valor;Float
+Temperatura Tap(°C);_44V01TAPTemp_TT4401_AI.Valor;Float
+Presión recristalizador 1(bar);_11V1Recrist1Presion_PT1105_AI.Valor;Float
+Presión recristalizador 2(bar);_21V1Recrist2Presion_PT2105_AI.Valor;Float
+Presión recristalizador 3(bar);_31V1Recrist3Presion_PT3105_AI.Valor;Float
+Presión recibidor 1(bar);_16V01Recibidor1Presion_PT1108_AI.Valor;Float
+Presión recibidor 2(bar);_26V01Recibidor2Presion_PT2108_AI.Valor;Float
+Presión recibidor 3(bar);_36V01Recibidor3Presion_PT3108_AI.Valor;Float
+Corriente cristalizador 1(Amp);_12EM1Cristalizador1Corriente_AI.Valor;Float
+Corriente cristalizador 2(Amp);_12EM2Cristalizador2Corriente_AI.Valor;Float
+Corriente cristalizador 3(Amp);_12EM3Cristalizador3Corriente_AI.Valor;Float
+Corriente cristalizador 4(Amp);_22EM1Cristalizador4Corriente_AI.Valor;Float
+Corriente cristalizador 5(Amp);_22EM2Cristalizador5Corriente_AI.Valor;Float
+Corriente cristalizador 6(Amp);_22EM3Cristalizador6Corriente_AI.Valor;Float
+Corriente cristalizador 7(Amp);_32EM1Cristalizador7Corriente_AI.Valor;Float
+Corriente cristalizador 8(Amp);_32EM2Cristalizador8Corriente_AI.Valor;Float
+Conductividad columna 1(microS);_13V01Colum1Conduct_CT1319_AI.Valor;Float
+Conductividad columna 2(microS);_23V01Colum2Conduct_CT2319_AI.Valor;Float
+Conductividad columna 3(microS);_33V01Colum3Conduct_CT3319_AI.Valor;Float
