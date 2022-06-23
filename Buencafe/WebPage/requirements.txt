@@ -1,6 +1,7 @@
 Django~=3.2.10
 scikit-learn
 numpy
+pandas
 matplotlib.pyplot
 seaborn as sns
 import statsmodels.api         as sm
