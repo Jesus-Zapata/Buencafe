@@ -1,2 +1,7 @@
 Django~=3.2.10
-1
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+statsmodels
