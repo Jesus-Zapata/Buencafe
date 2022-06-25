@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block content %}
+<!-- Page Heading -->
+
+
+
+    
+
+<div class="row">
+
+    <div class="col-lg-1">
+    </div>
+
+    <div class="col-lg-10">
+
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Our Company</h1>
+        </div>
+
+        <p class="mb-4">Besides being a significant part of the FNC’s value strategy, Buencafé has been one of the world’s leading suppliers of soluble coffee since 1973. Delivering positive social impact has been an important part of our work for more than 40 years.
+
+            As part of the Colombian Coffee Growers Federation (FNC), Buencafé is one of the world’s leading premium soluble coffee suppliers.
+            </p>
+
+            <img src="{% static 'img/Picture1.png'%}" width="100%">
+        <br></br>
+            <p class="mb-4">
+                We are dedicated to providing high-quality, 100% Colombian freeze-dried coffee, driven by an aim to deliver sustainable social impact in the communities we work with. Our coffee is perfect for wide-scale industrial services, and can also be tailored to complement your retail offering with our brand-specific private label service.
+
+                The Buencafé team has the perfect solution to support you in all stages of the project, from developing your idea to delivering the final product anywhere in the world. In the coffee industry, companies look for reliability and consistency. That’s exactly what we stand for.
+            </p>
+        <!-- Dropdown Card Example -->
+        
+        <!-- Collapsable Card Example -->
+        <div class="card shadow mb-4">
+            <!-- Card Header - Accordion -->
+            <a href="#collapseCardExample" class="d-block card-header py-3" data-toggle="collapse"
+                role="button"  aria-controls="collapseCardExample">
+                <h6 class="m-0 font-weight-bold text-primary">Policy</h6>
+            </a>
+            <!-- Card Content - Collapse -->
+            <div class="collapse show" id="collapseCardExample">
+                <div class="card-body">
+                    At Buencafé Liofilizado de Colombia, we work with optimism in creating sustainable value for the country’s coffee growers.
+
+With a culture of care, we positively impact our relationships with the environment, the coffee growers guild, the community, and other stakeholders; we meet our customers’ needs through safe, authentic and high-quality products, safeguarded through the supply chain.
+
+We are committed to social, economic and environmental sustainability, continuous processes improvement, and preservation of our workers’ health.
+
+We comply with applicable laws and regulations.
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
