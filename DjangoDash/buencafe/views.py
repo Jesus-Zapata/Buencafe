@@ -10,3 +10,9 @@ def history(requests):
 
 def coffee(requests):
     return render(requests, 'buencafe/coffee.html')
+
+def team(requests):
+    return render(requests, 'buencafe/team.html')
+
+def eda(requests):
+    return render(requests, 'buencafe/eda.html')
