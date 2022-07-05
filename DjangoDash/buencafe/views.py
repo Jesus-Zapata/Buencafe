@@ -16,3 +16,12 @@ def team(requests):
 
 def eda(requests):
     return render(requests, 'buencafe/eda.html')
+
+def tried(requests):
+    return render(requests, 'buencafe/tried.html')
+
+def model(requests):
+    return render(requests, 'buencafe/model.html')
+
+def neural(requests):
+    return render(requests, 'buencafe/neural.html')

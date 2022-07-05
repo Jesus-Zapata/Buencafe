@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block content %}
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Extra Trees Regressor/ K Neighbors Regressor/ Light Gradient Boosting Machine/ Ensemble model</h1>
+</div>
+
+<p class="mb-4">
+    As the multiple linear regression was not effective, we explore other models that can be more suitable to our data. For this reason, we decided to use pycaret.
+</p>
+
+<div class="row">
+    <div class="col">
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <p>
+                    The information was divided into test (20%) and train (80%) part. We find and compare the best three models with pycaret:
+                </p>
+                <img src="{% static 'img/models.png'%}" width="100%">
+             </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <p>
+                    We made an assemble with the three training models to improve the results:
+                </p>
+                <img src="{% static 'img/Assemble.png'%}" width="100%">
+                <br></br>
+                <p>
+                    This is the plot where we can see the accuracy of the model against the real values:
+                </p>
+                <img src="{% static 'img/Assemble_plot.png'%}" width="100%">
+             </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

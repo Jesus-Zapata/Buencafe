@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block content %}
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Neural network</h1>
+</div>
+
+<div class="row">
+    <div class="col">
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <p>
+                    As a final option, we train a neural network. First, the information was divided into test (20%) and train (80%) part and build the model:
+                </p>
+                <img src="{% static 'img/divide.png'%}" width="100%">
+                <br></br>
+                <p>
+                    Then the model was train with 1000 epochs:
+                </p>
+                <img src="{% static 'img/train_neural.png'%}" width="100%">
+             </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <p>
+                    This is the learning evolution through the training:
+                </p>
+                <img src="{% static 'img/learning_evolution.png'%}" width="100%">
+                <p>
+                    After some analysis and more experiments with model, it was analyzed that an ideal number of epochs is 17 however, the model was not as effective as the previous option so, it was chosen as the best model for this situation the ensemble model.
+                </p>
+             </div>
+        </div>
+    </div>
+</div>
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">LInear regression</h1>
+</div>
+<div class="row">
+    
+    
+    <div class="col-lg-4 mr-4">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">The model</h6>
+            </div>
+            
+            <div class="card-body">
+        
+            <p>
+                A preprocessing of the data was made dividing them in two Datasets (train and test), then we used the training data to make the construction of a linear regression model, then, we used our test set to compare how efficient is the prediction of the model, for this we used the mean square error metric which gave us a considerably high number, we also made a scatter plot where the low efficiency of the model is evidenced.
+            </p>
+        </div>
+    </div>
+    </div>
+    <div class="col-lg-7 mr-7">
+        <img src="{% static 'img/LinearRegression.png'%}" width="100%">
+    </div>
+</div>
+
+
+{% endblock %}
