@@ -2,5 +2,207 @@
 {% load static%}
 {% block content %}
 <h1>Dashboard</h1>
+<div class="row">
+<div class="col">
 <img src="{% static 'img/Dash.jpeg'%}" width="100%">
+<br></br> <br></br>
+<div class="container-fluid">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Model test</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Desague_pred</th>
+                            <th>Desague_Test</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>610</td>
+                            <td>1068.463579</td>
+                            <td>1070.0</td>
+                        </tr>
+                        <tr>
+                            <td>818</td>
+                            <td>1016.032509</td>
+                            <td>1002.0</td>
+                        </tr>
+                        <tr>
+                            <td>290</td>
+                            <td>1075.078610</td>
+                            <td>1025.0</td>
+                        </tr>
+                        <tr>
+                            <td>559</td>
+                            <td>1246.719346</td>
+                            <td>1224.0</td>
+                        </tr>
+                        <tr>
+                            <td>168</td>
+                            <td>1073.956420</td>
+                            <td>1152.0</td>
+                        </tr>
+                        <tr>
+                            <td> ... </td>
+                            <td> ... </td>
+                            <td> ... </td>
+                        </tr>
+                        <tr>
+                            <td>192</td>
+                            <td>1058.091625</td>
+                            <td>721.0</td>
+                        </tr>
+                        <tr>
+                            <td>650</td>
+                            <td>1071.230143</td>
+                            <td>1054.0</td>
+                        </tr>
+                        <tr>
+                            <td>456</td>
+                            <td>969.466375</td>
+                            <td>1042.0</td>
+                        </tr>
+                        <tr>
+                            <td>773</td>
+                            <td>1074.709862</td>
+                            <td>1004.0</td>
+                        </tr>
+                        <tr>
+                            <td>531</td>
+                            <td>1160.494789</td>
+                            <td>1009.0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="col">
+<div class="container-fluid">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Max Values</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Variable</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Presión_recibidor1</td>
+                            <td>1,87576</td>
+                        </tr>
+                        <tr>
+                            <td>Presión_recibidor2</td>
+                            <td>-3,21000</td>
+                        </tr>
+                        <tr>
+                            <td>Presión_recibidor3</td>
+                            <td>0,79394</td>
+                        </tr>
+                        <tr>
+                            <td>Corriente_cristalizador1 </td>
+                            <td>8,43697</td>
+                        </tr>
+                        <tr>
+                            <td>Corriente_cristalizador2</td>
+                            <td>6,84242</td>
+                        </tr>
+                        <tr>
+                            <td>Corriente_cristalizador3</td>
+                            <td>6,25212</td>
+                        </tr>
+                        <tr>
+                            <td>Corriente_cristalizador4</td>
+                            <td>6,27546</td>
+                        </tr>
+                        <tr>
+                            <td>Corriente_cristalizador5</td>
+                            <td>6,55909</td>
+                        </tr>
+                        <tr>
+                            <td>Corriente_cristalizador6</td>
+                            <td>8,42909</td>
+                        </tr>
+                        <tr>
+                            <td>Corriente_cristalizador7</td>
+                            <td>7,04000</td>
+                        </tr>
+                        <tr>
+                            <td>Corriente_cristalizador8</td>
+                            <td>8,03394</td>
+                        </tr>
+                        <tr>
+                            <td>Corriente_recristalizador1</td>
+                            <td>23,76314</td>
+                        </tr>
+                        <tr>
+                            <td>Corriente_recristalizador2</td>
+                            <td>29,17114</td>
+                        </tr>
+                        <tr>
+                            <td>Corriente_recristalizador3</td>
+                            <td>35,66857</td>
+                            </tr>
+                        <tr>
+                            <td>Temperatura_recristalizador1</td>
+                            <td>-0,63543</td>
+                            </tr>
+                        <tr>
+                            <td>Temperatura_recristalizador2</td>
+                            <td>-2,03114</td>
+                            </tr>
+                        <tr>
+                            <td>Temperatura_recristalizador3</td>
+                            <td>-3,65543</td>
+                            </tr>
+                        <tr>
+                            <td>Temperatura_recibidor1</td>
+                            <td>-25,16514</td>
+                            </tr>
+                        <tr>
+                            <td>Temperatura_recibidor2</td>
+                            <td>-33,33886</td>
+                            </tr>
+                        <tr>
+                            <td>Temperatura_recibidor3</td>
+                            <td>-35,53943</td>
+                            </tr>
+                        <tr>
+                            <td>Temperatura_Tap </td>
+                            <td>5,71629</td>
+                            </tr>
+                        <tr>
+                            <td>Presión_recristalizador1</td>
+                            <td>1,13486</td>
+                            </tr>
+                        <tr>
+                            <td>Presión_recristalizador2</td>
+                            <td>2,20143</td>
+                            </tr>
+                        <tr>
+                            <td>Presión_recristalizador3</td>
+                            <td>1,65743</td>
+                            </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
 {% endblock %}
